@@ -4,7 +4,7 @@ on: push
 
 jobs:
   continuos-integration:
-    runs-on: ubunto-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: Clone the repository
