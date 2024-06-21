@@ -15,6 +15,6 @@ jobs:
           java-version: "21"
           distribution: "temurin"
           architecture: x64
-          cache: maven # Stores dependencies to speed up your workflow executions
+          cache: maven
       - name: Run the Maven verify phase
         run: mvn --batch-mode --update-snapshots verify
